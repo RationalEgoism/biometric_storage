@@ -25,9 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
-kotlin {
-    jvmToolchain(17)
-}
+//kotlin {
+//    jvmToolchain(17)
+//}
 
 android {
     namespace "design.codeux.biometric_storage"
